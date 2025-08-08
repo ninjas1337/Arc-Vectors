@@ -103,7 +103,6 @@ latexmk -pdf main.tex
 Looking especially for help with: astrodynamics algorithms, low‑thrust optimal control, SPICE ephemerides, auto‑diff, and visualization.
 
 ---
-@ninjas1337 ➜ /workspaces/Arc-Vectors (main) $ /home/codespace/.python/current/bin/python /workspaces/Arc-Vectors/make_downloads_table.py
 ## Downloads
 
 | Title | PDF |
@@ -114,7 +113,7 @@ Looking especially for help with: astrodynamics algorithms, low‑thrust optimal
 | Measuring Ava Efficiency   Method | [paper/Measuring AVA efficiency - Method.pdf](paper/Measuring%20AVA%20efficiency%20-%20Method.pdf) |
 | Practical Arc Vector Trajectory Calculation   Apollo 11 (1) | [paper/Practical_Arc_Vector_Trajectory_Calculation___Apollo_11 (1).pdf](paper/Practical_Arc_Vector_Trajectory_Calculation___Apollo_11%20%281%29.pdf) |
 | Where Ava Stands In The Litterature | [paper/Where AVA stands in the litterature.pdf](paper/Where%20AVA%20stands%20in%20the%20litterature.pdf) |
-@ninjas1337 ➜ /workspaces/Arc-Vectors (main) $  
+
 ## Citation
 ```
 Sanjin Redzic (2025). AVA Trajectory Planner (ATP). GitHub repository.
