@@ -1,6 +1,15 @@
-# Arc Vector Algebra for Flight Trajectory Analysis — MVP: single-burn (one-impulse) optimizer; DSM/lambert targeting; Δv/TOF sweeps.
+## About AVA (Arc Vector Algebra)
 
-**Scope:** Collaboration to evolve **Arc Vector Algebra (AVA)** into an open‑source **flight trajectory planner and burn optimizer** for interplanetary missions.
+Reference: *Arc Vector Algebra (AVA): Foundations, Theory, and Applications in Differential Geometry* (S. Redzic, May 2025). See the Downloads section for the PDF.
+
+**Idea.** Treat a trajectory segment as an **arc vector** \((f(x),a,b)\) and operate on whole curves:
+- Inner product on \(L^2[a,b]\) → fast similarity/angle metrics between trajectories
+- Curvature proxy via Rayleigh quotient with \(T=\mathrm{d}^2/\mathrm{d}x^2\)
+- Wronskian-like determinant for linear independence
+- Compose arcs (coast + burn) with simple algebra, then re-evaluate metrics
+
+**Why it helps the planner.** Burns become operators on arcs; we can sweep DSM/burn timing and compare resultant paths by one-number metrics (Δv, TOF, curvature/“smoothness”) before/alongside full integrations.
+
 
 **Maintainer:** Sanjin Redzic  
 **Status:** Early prototype (seeking contributors)  
