@@ -103,6 +103,14 @@ latexmk -pdf main.tex
 Looking especially for help with: astrodynamics algorithms, low‑thrust optimal control, SPICE ephemerides, auto‑diff, and visualization.
 
 ---
+## Downloads
+
+| Title | PDF | Date | Notes |
+|---|---|---|---|
+| AVA Overview (ATP scope) | [paper/AVA-overview.pdf](paper/AVA-overview.pdf) | 2025-08-08 | High-level vision for DevelopSpace |
+| AVA Burn Optimizer Spec | [paper/AVA-burn-optimizer.pdf](paper/AVA-burn-optimizer.pdf) | 2025-08-08 | Math + interfaces |
+| Trajectory Planner v0 | [paper/AVA-trajectory-planner-v0.pdf](paper/AVA-trajectory-planner-v0.pdf) | 2025-08-08 | MVP PDF |
+
 
 ## Citation
 ```
