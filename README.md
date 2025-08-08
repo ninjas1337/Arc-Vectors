@@ -2,7 +2,7 @@
 
 **Scope:** Collaboration with **DevelopSpace** to evolve **Arc Vector Algebra (AVA)** into an open‑source **flight trajectory planner and burn optimizer** for interplanetary missions.
 
-**Maintainer:** Sanjin  
+**Maintainer:** Sanjin Redzic  
 **Status:** Early prototype (seeking contributors)  
 **License:** MIT (code) • CC BY 4.0 (docs)
 
