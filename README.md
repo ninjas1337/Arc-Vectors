@@ -10,6 +10,7 @@ Reference: *Arc Vector Algebra (AVA): Foundations, Theory, and Applications in D
 
 **Why it helps the planner.** Burns become operators on arcs; we can sweep DSM/burn timing and compare resultant paths by one-number metrics (Δv, TOF, curvature/“smoothness”) before/alongside full integrations.
 
+Prior art. AVA doesn’t claim new math. It likely overlaps with established approaches (e.g., spline/segment methods, optimal control, geometric mechanics). I wasn’t aware of the relevant threads when I started; pointers are welcome and I’ll align/cite. The goal here is an intuition-first arc packaging plus tooling for trajectory planning.
 
 **Maintainer:** Sanjin Redzic  
 **Status:** Early prototype (seeking contributors)  
