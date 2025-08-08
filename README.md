@@ -1,6 +1,6 @@
-# AVA Trajectory Planner (ATP)
+# Arc Vector Algebra for Flight Trajectory Analysis — MVP: single-burn (one-impulse) optimizer; DSM/lambert targeting; Δv/TOF sweeps.
 
-**Scope:** Collaboration with **DevelopSpace** to evolve **Arc Vector Algebra (AVA)** into an open‑source **flight trajectory planner and burn optimizer** for interplanetary missions.
+**Scope:** Collaboration to evolve **Arc Vector Algebra (AVA)** into an open‑source **flight trajectory planner and burn optimizer** for interplanetary missions.
 
 **Maintainer:** Sanjin Redzic  
 **Status:** Early prototype (seeking contributors)  
