@@ -26,6 +26,8 @@ Classical astrodynamics works in state space and uses local tangents; **AVA** sh
 
 Non‑goals: closed data, ITAR‑restricted content, or anything not reproducible by the community.
 
+"Nature works in arcs, not in finite straight lines"
+
 ---
 
 ## Why AVA here?
