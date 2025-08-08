@@ -106,5 +106,5 @@ Looking especially for help with: astrodynamics algorithms, low‑thrust optimal
 
 ## Citation
 ```
-Sanjin (2025). AVA Trajectory Planner (ATP). GitHub repository.
+Sanjin Redzic (2025). AVA Trajectory Planner (ATP). GitHub repository.
 ```
