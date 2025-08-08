@@ -103,22 +103,6 @@ latexmk -pdf main.tex
 Looking especially for help with: astrodynamics algorithms, low‑thrust optimal control, SPICE ephemerides, auto‑diff, and visualization.
 
 ---
-# save as make_downloads_table.py and run: python make_downloads_table.py
-import os, urllib.parse, pathlib
-
-paper = pathlib.Path("paper")
-pdfs = sorted([p for p in paper.glob("**/*.pdf")])
-
-print("## Downloads\n")
-print("| Title | PDF |")
-print("|---|---|")
-for p in pdfs:
-    rel = p.as_posix()
-    title = p.stem.replace("-", " ").replace("_", " ").title()
-    link = f"{rel}"  # relative link works in README
-    print(f"| {title} | [{rel}]({urllib.parse.quote(link)}) |")
-
-
 
 ## Citation
 ```
