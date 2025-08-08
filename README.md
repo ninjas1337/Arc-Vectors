@@ -122,9 +122,12 @@ Looking especially for help with: astrodynamics algorithms, low‑thrust optimal
 | Ava Canted Vs Split Onepager V2 | [paper/AVA_canted_vs_split_onepager_v2.pdf](paper/AVA_canted_vs_split_onepager_v2.pdf) |
 | Apollo 11   Arc Vector Single Burn Savings | [paper/Apollo 11 - Arc Vector Single Burn Savings.pdf](paper/Apollo%2011%20-%20Arc%20Vector%20Single%20Burn%20Savings.pdf) |
 | Arc Vector Algebra (Ava) Foundations, Theory, And Applications In Differential Geometry | [paper/Arc Vector Algebra (AVA) Foundations, Theory, and Applications in Differential Geometry.pdf](paper/Arc%20Vector%20Algebra%20%28AVA%29%20Foundations%2C%20Theory%2C%20and%20Applications%20in%20Differential%20Geometry.pdf) |
+| Falcon 9 Re Entry Analysis   Ava (1) | [paper/Falcon_9_Re_Entry_Analysis___AVA (1).pdf](paper/Falcon_9_Re_Entry_Analysis___AVA%20%281%29.pdf) |
 | Measuring Ava Efficiency   Method | [paper/Measuring AVA efficiency - Method.pdf](paper/Measuring%20AVA%20efficiency%20-%20Method.pdf) |
 | Practical Arc Vector Trajectory Calculation   Apollo 11 (1) | [paper/Practical_Arc_Vector_Trajectory_Calculation___Apollo_11 (1).pdf](paper/Practical_Arc_Vector_Trajectory_Calculation___Apollo_11%20%281%29.pdf) |
 | Where Ava Stands In The Litterature | [paper/Where AVA stands in the litterature.pdf](paper/Where%20AVA%20stands%20in%20the%20litterature.pdf) |
+
+
 
 ## Citation
 ```
