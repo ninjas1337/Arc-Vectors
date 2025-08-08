@@ -103,13 +103,21 @@ latexmk -pdf main.tex
 Looking especially for help with: astrodynamics algorithms, low‑thrust optimal control, SPICE ephemerides, auto‑diff, and visualization.
 
 ---
-## Downloads
+# save as make_downloads_table.py and run: python make_downloads_table.py
+import os, urllib.parse, pathlib
 
-| Title | PDF | Date | Notes |
-|---|---|---|---|
-| AVA Overview (ATP scope) | [paper/AVA-overview.pdf](paper/AVA-overview.pdf) | 2025-08-08 | High-level vision for DevelopSpace |
-| AVA Burn Optimizer Spec | [paper/AVA-burn-optimizer.pdf](paper/AVA-burn-optimizer.pdf) | 2025-08-08 | Math + interfaces |
-| Trajectory Planner v0 | [paper/AVA-trajectory-planner-v0.pdf](paper/AVA-trajectory-planner-v0.pdf) | 2025-08-08 | MVP PDF |
+paper = pathlib.Path("paper")
+pdfs = sorted([p for p in paper.glob("**/*.pdf")])
+
+print("## Downloads\n")
+print("| Title | PDF |")
+print("|---|---|")
+for p in pdfs:
+    rel = p.as_posix()
+    title = p.stem.replace("-", " ").replace("_", " ").title()
+    link = f"{rel}"  # relative link works in README
+    print(f"| {title} | [{rel}]({urllib.parse.quote(link)}) |")
+
 
 
 ## Citation
